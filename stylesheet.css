@@ -1,0 +1,210 @@
+.navBar, .menuBar{
+	
+	position: relative;
+	min-width: 1024px; 
+	min-height: 60px; max-height: 80px
+	margin:0 auto;
+	background-color: #f1f1f1;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #c9c5c5;
+    
+    
+}
+
+
+.navBar table{
+	position: absolute;
+	top:15%;
+	right:0;
+	
+}
+
+.navBar td{
+	padding-right: 20px;
+}
+#icon{
+	position: absolute;
+	left:1%;
+	top:11%; 
+}
+.navBar input{
+	position: relative;
+	 margin-top:0.8%; 
+	margin-left: 11%;
+	
+
+	min-width: 570px;
+	min-height:36px; max-height: 70px;
+	
+	border:solid;
+	border-width: 0.5px;
+	border-color: #c9c5c5;
+	
+	padding-left: 10px;
+	border-right: none;
+
+}
+.navBar button{
+	position: absolute;
+
+    margin-top: 0.8%;
+    min-width: 40px;
+    min-height:40px;
+    background-image: url("google_mGlass.png");
+    border:none;
+    
+    
+    margin-left:0;
+    
+    
+}
+
+
+/*menuBar*/
+.menuBar{
+	background-color: white;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #c9c5c5;
+	
+	
+}
+#allOption{
+	margin-left:11%;
+	border-bottom: solid;
+	border-color: blue;
+	color:blue;
+	font-weight: bold;
+}
+
+.menuBar a{
+	position: relative;
+
+    margin-right: 1%;
+    top:1.9em; /*menu bar blue*/
+	padding-top:2%;
+	padding-bottom: 1.5%;
+	padding-left: 8px; padding-right: 8px;
+	text-decoration: none;
+	color:#777;;
+	font-size: small;
+}
+.menuBar a:hover{
+	color:black;
+}
+.menuBar table{
+	position: absolute;
+    height: 50px;
+	right:0;
+
+}
+#tool{
+	padding-right: 1em;
+	padding-left: 15px;
+
+}
+/*attempt*/
+body{
+
+	font-family: arial,sans-serif;
+}
+.contentFooterContainer{
+	position: relative;
+	padding-top: 1%;
+	min-width: 1024px;
+}
+content {
+	display: inline-block;
+	min-width: 600px;
+	margin-left: 11%;
+	margin-right: 39%;
+}
+content img{
+	position: relative;
+	padding-left: 15%; padding-right: 15%;
+	margin:0 10% 0 10%;
+}
+
+content p{
+	color:#808080;
+	font-size: small;
+}
+content h3{
+	color:#808080;
+	font-size: 18px;
+	padding-bottom: .5%;
+}
+article{
+	margin-top: 3%;
+}
+
+article p,article h4{
+	color:#545454;
+	font-size: small;
+	line-height: 1.4;
+}
+article h4{
+	color:green;
+}
+article a{
+	text-decoration: none;
+	color:#1a0dab;
+	font-size: 18px;
+}
+article a:hover{
+	text-decoration: underline;
+}
+#lastVisit{
+	padding-top: 1%;
+	padding-bottom: 3%;
+}
+
+content h3{
+	padding-top: 2%;
+}
+content table{
+	font-size: small;
+	width: 80%;
+}
+content table td{
+	padding-top: 2%;
+	padding-bottom: 2%;
+
+}
+content table a{
+	text-decoration: none;
+	color:#1a0dab;
+}
+content table strong{
+	font-weight: bold;
+}
+
+footer{
+	background-color: #f2f2f2;
+	border-top:1px solid #e4e4e4;
+}
+footer table{
+  margin-left: 11%;
+  
+}
+footer table td{
+     padding-top: 5%;
+	font-size:small;
+}
+#table2 td{
+	padding-right: 30px;
+	padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
